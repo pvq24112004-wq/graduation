@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>document.documentElement.classList.add('js');</script>
+  <meta name="theme-color" content="#204098">
+  <meta name="description" content="Thiệp mời lễ tốt nghiệp của Phạm Văn Quyết – Trường Đại học Văn hóa TP. Hồ Chí Minh.">
+  <title>Thiệp mời tốt nghiệp | Phạm Văn Quyết</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=mobile-final-1">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+    <img src="assets/images/logo-truong.webp" alt="">
+    <div class="loading-line"><span></span></div>
+    <p>Đang chuẩn bị thiệp mời…</p>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <section class="hero" id="top" aria-label="Thiệp mời tốt nghiệp">
+    <img class="hero__image" src="assets/images/TRUONG.jpg" alt="Trường Đại học Văn hóa TP. Hồ Chí Minh">
+    <div class="hero__overlay"></div>
+    <div class="hero__content reveal reveal-up">
+      <img class="hero__logo" src="assets/images/logo-truong.webp" alt="Logo Trường Đại học Văn hóa TP. Hồ Chí Minh">
+      <p class="eyebrow">Graduation Invitation · 2026</p>
+      <h1 class="hero__name">Phạm Văn Quyết</h1>
+      <p class="hero__class">22DTT2</p>
+      <p class="hero__major">Truyền thông Văn hóa</p>
+      <p class="hero__school">Trường Đại học Văn hóa TP. Hồ Chí Minh</p>
+      <div class="hero__meta" aria-label="Thời gian diễn ra buổi lễ">
+        <span>Thứ Bảy, 08.08.2026</span><i></i><span>09:30 sáng</span>
+      </div>
+      <button class="button button--light" id="openInvitation" type="button">
+        <span>Mở thiệp</span><span aria-hidden="true">↓</span>
+      </button>
+    </div>
+    <a class="hero__scroll" href="#message" aria-label="Cuộn xuống nội dung thiệp"><span></span></a>
+  </section>
+
+  <main id="invitationContent">
+    <section class="section intro" id="message">
+      <div class="container container--narrow">
+        <div class="section-heading reveal reveal-up">
+          <p class="eyebrow eyebrow--blue">Lời mời</p>
+          <h2>Một cột mốc đáng nhớ</h2>
+          <div class="ornament" aria-hidden="true"><span></span><b>✦</b><span></span></div>
+        </div>
+        <article class="letter reveal reveal-up">
+          <span class="letter__mark" aria-hidden="true">“</span>
+          <p>Vậy là mình đã hoàn thành chặng đường 4 năm tại giảng đường. Thời gian qua tuy không dài nhưng cũng không ngắn, đủ để bản thân mình trưởng thành và hoàn thiện hơn.</p>
+          <p>Trong quãng thời gian đó, không thể thiếu sự đồng hành của gia đình cũng như những người bạn trân quý, tất cả đã tạo cho mình một quãng đời sinh viên thật đẹp.</p>
+          <p>Chân thành cảm ơn mọi người vì đã ở bên cạnh mình trong thời gian qua. Ngày tốt nghiệp sắp tới, mọi người hãy cùng đến chung vui cho cột mốc đáng nhớ của mình nhé.</p>
+          <p class="letter__signature">— Phạm Văn Quyết</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="container">
+        <div class="section-heading reveal reveal-up">
+          <p class="eyebrow eyebrow--blue">Đếm ngược</p>
+          <h2>Hẹn gặp mọi người tại buổi lễ</h2>
+        </div>
+        <div class="countdown reveal reveal-up" id="countdown" aria-live="polite">
+          <div class="countdown__item"><strong id="days">00</strong><span>Ngày</span></div>
+          <div class="countdown__item"><strong id="hours">00</strong><span>Giờ</span></div>
+          <div class="countdown__item"><strong id="minutes">00</strong><span>Phút</span></div>
+          <div class="countdown__item"><strong id="seconds">00</strong><span>Giây</span></div>
+        </div>
+        <p class="countdown__message" id="countdownMessage"></p>
+      </div>
+    </section>
+
+    <section class="section event-section" id="event">
+      <div class="container">
+        <div class="event-layout">
+          <div class="event-copy reveal reveal-left">
+            <p class="eyebrow eyebrow--blue">Thông tin buổi lễ</p>
+            <h2>Lễ tốt nghiệp</h2>
+            <p class="event-copy__lead">Sự kiện đánh dấu hành trình bốn năm học tập và trưởng thành.</p>
+            <div class="event-details">
+              <div class="event-detail"><span class="event-detail__icon">01</span><div><small>Thời gian</small><p>09:30 sáng<br>Thứ Bảy, ngày 08/08/2026</p></div></div>
+              <div class="event-detail"><span class="event-detail__icon">02</span><div><small>Địa điểm</small><p>Trường Đại học Văn hóa TP. Hồ Chí Minh – Cơ sở 1<br>51 Quốc Hương, phường An Khánh, TP. Hồ Chí Minh</p></div></div>
+            </div>
+            <div class="button-row">
+              <a class="button button--primary" href="https://maps.app.goo.gl/Lz5Hf9SBdwjTcXMJ9" target="_blank" rel="noopener">📍 Chỉ đường</a>
+              <a class="button button--outline" href="tel:0967102684">📞 Gọi ngay</a>
+            </div>
+          </div>
+          <button class="venue-card reveal reveal-right" id="openLightbox" type="button" aria-label="Xem ảnh trường kích thước lớn">
+            <img src="assets/images/Pham-Van-Quyet-22DTT2.JPG" loading="lazy" alt="Phạm Văn Quyết – 22DTT2">
+            <span class="venue-card__caption"><b>Phạm Văn Quyết</b><small>22DTT2 · Chạm để xem ảnh lớn</small></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rsvp-section" id="rsvp">
+      <div class="container">
+        <div class="section-heading reveal reveal-up">
+          <p class="eyebrow eyebrow--blue">RSVP</p>
+          <h2>Xác nhận tham dự</h2>
+          <p>Rất mong được gặp bạn trong ngày đặc biệt của mình 💙</p>
+        </div>
+
+        <div class="rsvp-card reveal reveal-up">
+          <div class="rsvp-card__intro">
+            <span class="rsvp-card__icon" aria-hidden="true">✦</span>
+            <h3>Gửi lời xác nhận</h3>
+            
+          </div>
+
+          <form id="rsvpForm" class="rsvp-form" novalidate>
+            <div class="form-group">
+              <label for="guestName">Họ và tên <span>*</span></label>
+              <div class="input-wrap">
+                <span aria-hidden="true">👤</span>
+                <input id="guestName" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Nhập họ và tên của bạn" required>
+              </div>
+              <small class="field-error" id="nameError"></small>
+            </div>
+
+            <fieldset class="form-group attendance-group">
+              <legend>Hôm đó mình có được gặp bạn không? <span>*</span></legend>
+              <div class="attendance-options">
+                <label class="attendance-option">
+                  <input type="radio" name="attendance" value="Chắc chắn là có rồi" required>
+                  <span class="attendance-option__box"><b>🥳</b><strong>Chắc chắn là có rồi</strong><small>Mình sẽ đến chung vui</small></span>
+                </label>
+                <label class="attendance-option">
+                  <input type="radio" name="attendance" value="Tiếc quá, mình bận mất rồi">
+                  <span class="attendance-option__box"><b>😢</b><strong>Tiếc quá, mình bận</strong><small>Không thể tham dự lần này</small></span>
+                </label>
+                <label class="attendance-option">
+                  <input type="radio" name="attendance" value="Chưa chắc, mình báo sau nhé">
+                  <span class="attendance-option__box"><b>😊</b><strong>Chưa chắc</strong><small>Mình sẽ báo lại sau</small></span>
+                </label>
+              </div>
+              <small class="field-error" id="attendanceError"></small>
+            </fieldset>
+
+            <div class="form-group">
+              <label for="guestMessage">Đôi lời muốn lói</label>
+              <div class="input-wrap input-wrap--textarea">
+                <span aria-hidden="true">💌</span>
+                <textarea id="guestMessage" name="message" rows="5" maxlength="500" placeholder="Lời chúc của bạn dành cho Quyết..."></textarea>
+              </div>
+              <div class="character-count"><span id="messageCount">0</span>/500</div>
+            </div>
+
+            <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <button class="submit-button" id="submitRsvp" type="submit">
+              <span class="submit-button__text">Gửi xác nhận</span>
+              <span class="submit-button__loader" aria-hidden="true"></span>
+            </button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner reveal reveal-up">
+      <img src="assets/images/logo-truong.webp" alt="Logo trường">
+      <p class="eyebrow">Graduation Ceremony · 2026</p>
+      <h2>Phạm Văn Quyết</h2>
+      <p class="footer__class">22DTT2</p>
+      <p>Truyền thông Văn hóa<br>Trường Đại học Văn hóa TP. Hồ Chí Minh</p>
+      <div class="footer__links"><a href="tel:0967102684">0967 102 684</a><span>•</span><a href="https://maps.app.goo.gl/Lz5Hf9SBdwjTcXMJ9" target="_blank" rel="noopener">Xem bản đồ</a></div>
+      <small>© 2026 · Thiệp mời tốt nghiệp</small>
+    </div>
+  </footer>
+
+  <div class="music-player" id="musicPlayer" aria-label="Điều khiển nhạc">
+    <button id="musicToggle" type="button" aria-label="Phát hoặc tạm dừng nhạc">▶</button>
+    <button id="muteToggle" type="button" aria-label="Bật hoặc tắt tiếng">🔊</button>
+  </div>
+  <audio id="bgMusic" loop preload="metadata"><source src="assets/audio/fairytail.mp3" type="audio/mpeg"></audio>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Lên đầu trang">↑</button>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Ảnh Phạm Văn Quyết" hidden>
+    <button class="lightbox__close" id="closeLightbox" type="button" aria-label="Đóng">×</button>
+    <img src="assets/images/Pham-Van-Quyet-22DTT2.JPG" alt="Phạm Văn Quyết – 22DTT2">
+  </div>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+  <script src="assets/js/app.js?v=mobile-final-1"></script>
+</body>
+</html>
